@@ -17,7 +17,8 @@ def get_page(pn, url, keyword):
     params = {
         'tn': 'resultjson_com',
         'ipn': 'rj',
-        'ct': '201326592',       'is': '',
+        'ct': '201326592', 
+        'is': '',
         'fp': 'result',
         'queryWord': keyword,
         'cl': '2',
